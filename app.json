@@ -32,7 +32,21 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      [
+      "expo-font",
+      {
+        "fonts": ["../assets/fonts/Outfit-Regular.ttf" , "../assets/fonts/Outfit-SemiBold.ttf" , "../assets/fonts/Outfit-Bold.ttf"]
+      }
+    ],
+    [
+      "expo-location",
+      {
+        "locationAlwaysAndWhenInUsePermission": "Allow Ev Station App to use your location."
+      }
+    ]
+    
+      
     ],
     "experiments": {
       "typedRoutes": true
